@@ -1,3 +1,32 @@
+/* 企画一覧リストのデザイン */
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-items: center;
+}
+
+.projects-list li {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(56,189,248,0.10);
+    border: 2px solid #ffe066;
+    padding: 24px 12px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #222;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.projects-list li:hover {
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 8px 24px rgba(56,189,248,0.18);
+    background: #f0f9ff;
+    color: #0ea5e9;
+}
 /* 学園祭しおり専用スタイル */
 
 /* ロゴ表示画面 */
@@ -473,7 +502,7 @@ body::before {
 /* 企画一覧セクション */
 .projects {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #ffe4cc 0%, #ffcc99 100%);
+    background: linear-gradient(135deg, #ffdec2 0%, #ffd9b3 100%);
     border-top: 3px solid #ffcc99;
 }
 
@@ -1980,7 +2009,6 @@ body::before {
     margin-bottom: 25px;
     line-height: 1.6;
 }
-
 /* 統計セクション */
 .stats {
     background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
@@ -2221,11 +2249,11 @@ body::before {
 .projects {
     padding: 60px 20px;
     background: #f0f9ff;
-    border-top: 4px solid #38bdf8;
+    border-top: 4px solid #f0b433;
 }
 
 .projects .section-title {
-    color: #0369a1;
+    color: #f0b433;
 }
 
 /* ナビゲーション */
