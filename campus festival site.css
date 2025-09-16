@@ -27,6 +27,12 @@
     background: #f0f9ff;
     color: #0ea5e9;
 }
+.projects-list li:hover {
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 8px 24px rgba(56,189,248,0.18);
+    background: #f0f9ff;
+    color: #0ea5e9;
+}
 /* 学園祭しおり専用スタイル */
 
 /* ロゴ表示画面 */
