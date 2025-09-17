@@ -682,7 +682,7 @@ body::before {
 }
 
 .toc-item {
-    background: rgba(255, 228, 204, 0.8);
+    background: white;
     padding: 25px;
     border-radius: 20px;
     text-decoration: none;
